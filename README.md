@@ -1,2 +1,2 @@
-# Plant-Traits
-Predicting Plant Traits
+# Predicting Plant Traits
+This project is about predicting different plant traits, given plant images and their ancillary features for training. The main model used a pre-trained ResNet-50 model to extract features from the images, concatenating them with the given ancillary features, and using them as input into XGBoost, which is a fine-tuned boosting algorithm. This model architecture resulted in an average R2 score of slightly under 0.28 on the test set, showing the success of the model.
